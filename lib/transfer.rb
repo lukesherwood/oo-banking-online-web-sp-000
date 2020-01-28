@@ -16,5 +16,8 @@ class Transfer
     @reciever
   end
   
+  def status
+    @status
+  end  
   
 end
