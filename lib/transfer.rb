@@ -13,7 +13,7 @@ class Transfer
   end
   
   def receiver
-    @reciever
+    @receiver
   end
   
   def status
