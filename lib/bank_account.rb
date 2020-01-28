@@ -17,7 +17,8 @@ class BankAccount
   
   def valid?
     binding.pry
-    if self.balance > 0 && self.status == "open"
+    #if self.balance > 0 && 
+    self.status == "open"
   end
   end
 end
