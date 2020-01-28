@@ -5,6 +5,7 @@ class Transfer
     @sender = sender
     @reciever = recipient
     @amount = amount
+    @status = "pending"
   end
   
   def sender
@@ -15,6 +16,5 @@ class Transfer
     @reciever
   end
   
-  def a
   
 end
