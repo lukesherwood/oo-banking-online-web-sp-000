@@ -11,7 +11,7 @@ class Transfer
   end
   
   def valid?
-    binding.pry
+    
   self.sender.valid? && self.receiver.valid? && self.receiver.balance - @amount > 0
   end
   
