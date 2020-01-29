@@ -21,6 +21,7 @@ class Transfer
         BankAccount.receiver.balance += @amount
         self.status = "complete"
     else self.status = "rejected"
+    end
   end
   
   def reverse_transfer
